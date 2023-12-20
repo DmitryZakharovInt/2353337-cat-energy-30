@@ -1,12 +1,34 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-// }
+html {
+  box-sizing: border-box;
+}
 
-// body {
-//   font-family: $primary-font;
-// }
+body {
+  margin: 0;
 
+  background-color: #ffffff;
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 18px;
+
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
