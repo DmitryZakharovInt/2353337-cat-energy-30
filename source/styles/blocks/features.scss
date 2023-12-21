@@ -1,0 +1,75 @@
+.features {
+  padding: 0 20px;
+}
+
+.features__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  list-style: none;
+}
+
+.features__item {
+  min-height: 60px;
+  padding-left: 80px;
+  position: relative;
+
+  background-image: linear-gradient(#68b738, #68b738);
+  background-position: top left;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+}
+
+.features__item--useful::before {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 14px;
+  left: 15px;
+
+  content: url("../../images/icons/features_leaf-icon.svg");
+  background-color: transparent;
+}
+
+.features__item--just-mix::before {
+  position: absolute;
+  width: 26px;
+  height: 29px;
+  top: 16px;
+  left: 18px;
+
+  content: url("../../images/icons/features_water-icon.svg");
+  background-color: transparent;
+}
+
+.features__item--flatware::before {
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  top: 15px;
+  left: 18px;
+
+  content: url("../../images/icons/features_fork-icon.svg");
+  background-color: transparent;
+}
+
+.features__item--scales::before {
+  position: absolute;
+  width: 26px;
+  height: 31px;
+  top: 15px;
+  left: 18px;
+
+  content: url("../../images/icons/features_scales-icon.svg");
+  background-color: transparent;
+}

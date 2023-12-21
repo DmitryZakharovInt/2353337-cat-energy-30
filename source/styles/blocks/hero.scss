@@ -1,1 +1,30 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  padding: 27px 20px 0;
 
+  background-image: url("../../images/can-mobile@1x.png"), url("../../images/hero-bacground@1x.png");
+  background-repeat: no-repeat;
+  background-position: bottom center, top;
+  background-size: auto, 100vw auto;
+
+  font-family: $secondary-font;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.hero__slogan {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
